@@ -6,6 +6,10 @@ class Spiderman{
         this.movies = movies
         this.studio = studio
     }
+
+    getInfo(){
+        return "Hey I'm " + this.actor + " form " + this.studio + " Studio"
+    }
 }
 
 module.exports = Spiderman
